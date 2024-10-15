@@ -34,10 +34,10 @@ a{
 
 /* VISUAL AREA */
 .visual-area{
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     height:calc(100% - 100px);
-    /* DEBUG */
-    background-color: rgb(236, 29, 126);
 }
 
 
@@ -65,7 +65,7 @@ a{
 }
 /* MENU AREA */
 .menu-area{
-height: 100vh;
+height: calc(100vh - 160px);
 width: 150px;
 background-color: black;
 }
@@ -91,9 +91,17 @@ background-color: black;
     text-align: center;
     align-content: center;
 }
+.newplaylist{
+
+}
 
 /* SCROLL AREA */
 .scroll-area{
+    height: calc(100vh - 160px);
+    width: calc(100% - 150px);
+    overflow: auto;
+    /* DEBUG */
+    background-color:blue;
 
 }
 /* /VISUAL AREA  */
@@ -106,5 +114,5 @@ background-color: black;
     width: 100%;
     height: 100px;
     /* DEBUG */
-    background-color: aqua;
+    background-color: red;
 }
