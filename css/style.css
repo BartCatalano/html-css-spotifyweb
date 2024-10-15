@@ -12,7 +12,47 @@ img{
 .container{
 }
 .wrap{
-    background-color: lightblue;
+    /* background-color: lightblue; */
     height: 100vh;
     width: 100%;
+}
+
+/* VISUAL AREA */
+.visual-area{
+    width: 100%;
+    height:calc(100% - 100px);
+    /* DEBUG */
+    background-color: rgb(236, 29, 126);
+}
+
+
+/* UPGRADE ARIA */
+.upgrade-aria{
+    width: 100%;
+    height: 100px;
+    /* DEBUG */
+    background-color: blueviolet;
+}
+/* MENU AREA */
+.menu-area{
+height: 100vh;
+width: 150px;
+/* DEBUG */
+background-color: bisque;
+}
+/* SCROLL AREA */
+.scroll-area{
+
+}
+/* /VISUAL AREA  */
+
+
+
+/* CONTROL AREA */
+
+.control-area{
+    width: 100%;
+    height: 100px;
+    /* DEBUG */
+    background-color: aqua;
 }
