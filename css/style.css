@@ -7,14 +7,26 @@
 img{
     max-width: 100%;
 }
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
 
 /* UTILITY */
-.container{
-}
 .wrap{
     /* background-color: lightblue; */
     height: 100vh;
     width: 100%;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
 }
 
 /* VISUAL AREA */
@@ -28,17 +40,41 @@ img{
 
 /* UPGRADE ARIA */
 .upgrade-aria{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
     width: 100%;
-    height: 100px;
-    /* DEBUG */
-    background-color: blueviolet;
+    height: 60px;
+    color: white;
+    background-color: black;
+}
+.upgrade-b{
+    color:white;
+    border: 1px solid white;
+    height: 30px;
+    padding: 0 25px;
+
+}
+.logo{
+    margin: 10px;
+    display: flex;
+    align-items: center;
 }
 /* MENU AREA */
 .menu-area{
 height: 100vh;
 width: 150px;
 /* DEBUG */
-background-color: bisque;
+background-color: black;
+}
+.menu-home{
+    padding: 10px;
+    line-height: 25px;
+
+}
+.menu-home .li{
+    color: aquamarine;
+
 }
 /* SCROLL AREA */
 .scroll-area{
