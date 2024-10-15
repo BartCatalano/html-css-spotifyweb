@@ -12,7 +12,10 @@ li{
 }
 a{
     text-decoration: none;
-    color: white;
+    color: lightgray;
+}
+.m-20{
+    margin: 20px;
 }
 
 /* UTILITY */
@@ -64,18 +67,31 @@ a{
 .menu-area{
 height: 100vh;
 width: 150px;
-/* DEBUG */
 background-color: black;
 }
 .menu-home{
     padding: 10px;
     line-height: 25px;
-
 }
-.menu-home .li{
-    color: aquamarine;
-
+.playlist-menu{
+    padding: 10px;
 }
+.titolo-playlist{
+    margin: 0 10px 10px 0;
+    color: white;
+}
+.create-playlist{
+    color: white;
+}
+.add{
+    color: black;
+    background-color: lightgrey;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    align-content: center;
+}
+
 /* SCROLL AREA */
 .scroll-area{
 
