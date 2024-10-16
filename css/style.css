@@ -21,6 +21,9 @@ a{
 .gray{
     color: gray;
 }
+.wh{
+    color: white;
+}
 
 /* UTILITY */
 .wrap{
@@ -130,19 +133,30 @@ color: white;
     height: calc(100vh - 160px);
     width: calc(100% - 150px);
     overflow: auto;
-    /* DEBUG */
-    background-color:blue;
+background-color: black;
 
+}
+.menu-scroll{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.rplay{
+    color: white;
+    font-size: 22px;
+    padding: 0 5px;
 }
 .firstrow-scroll{
     display: flex;
     flex-wrap: wrap;
-    height: 200px;
 }
 .col-scroll{
     width: calc(100% / 6);
     padding 20px;
-    border: 1px solid red;
+    padding: 5px;
+    
 }
 /* /VISUAL AREA  */
 
