@@ -60,6 +60,7 @@ a{
     border: 1px solid white;
     height: 30px;
     padding: 0 25px;
+    margin-right: 10px;
 
 }
 .logo{
@@ -69,19 +70,22 @@ a{
 }
 /* MENU AREA */
 .menu-area{
-height: calc(100vh - 160px);
 width: 150px;
 background-color: black;
+display: flex;
+flex-wrap: wrap;
 }
 .menu-home{
-    padding: 10px;
+    padding: 0 10px;
     line-height: 25px;
 }
 .playlist-menu{
+    display: flex;
+    flex-wrap: wrap;
     padding: 10px;
 }
 .titolo-playlist{
-    margin: 0 10px 10px 0;
+    margin: 10px 10px 10px 0;
     color: white;
 }
 .create-playlist{
@@ -104,17 +108,21 @@ background-color: black;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
 
 }
 .footer-playlist{
-    padding-top: 200px;
+    width: 100%;
+    align-content: flex-end;
+   
 }
 .footer-menu{
+    display: flex;
+    flex-wrap: wrap;
     color: gray;
 }
 .user-menu{
-    color: white;
+color: white;
 }
 
 /* SCROLL AREA */
@@ -125,6 +133,16 @@ background-color: black;
     /* DEBUG */
     background-color:blue;
 
+}
+.firstrow-scroll{
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+}
+.col-scroll{
+    width: calc(100% / 6);
+    padding 20px;
+    border: 1px solid red;
 }
 /* /VISUAL AREA  */
 
@@ -152,4 +170,18 @@ width: 25%;
 }
 .control-right{
     width: 25%;
+}
+
+
+
+
+/* MEDIA QUERY */
+@media screen and (max-width: 1024px) {
+    
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 425px){
+
 }
