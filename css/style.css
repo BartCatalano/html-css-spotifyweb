@@ -81,6 +81,9 @@ a{
 
 }
 .logo{
+    gap: 6px;
+    height: 30px;
+    width: 30px;
     margin: 10px;
     display: flex;
     align-items: center;
@@ -306,13 +309,20 @@ background-color: #141922;
 
 
 
+
+
 /* MEDIA QUERY */
 @media screen and (max-width: 1024px) {
     
+        
+ 
 }
 @media screen and (max-width: 768px){
 
 }
+
+ 
 @media screen and (max-width: 425px){
+   
 
 }
