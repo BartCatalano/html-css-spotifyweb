@@ -47,6 +47,9 @@ a{
     height: 3px;
     width: 3px;
 }
+.writehide{
+    display: inline;
+}
 
 
 /* VISUAL AREA */
@@ -140,7 +143,7 @@ flex-wrap: wrap;
 }
 
 .hrmenu{
-   
+   display:inline-block;
     margin: 0 0 0 10px;
     width: 120px;
     border-color: gray;
@@ -208,7 +211,7 @@ background-color: #141922;
 }
 .img-song{
     position: relative;
-    z-index: 1;
+    z-index: 3;
     
 }
 .card-cover{
@@ -230,8 +233,8 @@ background-color: #141922;
     top: 0px;
     width: 100%;
     text-align: center;
-    z-index: 0;
-    background-color:;
+    z-index: 2;
+    background-color:rgba(0, 0, 0, 0.6);
     
 }
 /* /VISUAL AREA  */
@@ -355,7 +358,7 @@ a:hover{
     box-shadow: 0px 2px 0px 0px green;
 }
 .card-cover:hover .img-song{
-    z-index: -2;
+    z-index: 1;
     
 }
 
@@ -367,16 +370,47 @@ a:hover{
 
 /* MEDIA QUERY */
 @media screen and (max-width: 878px) {
-    
+    .col-scroll{
+        
+        width: calc(100% / 4);}
+        
+        .menu-scroll{
+           
+            gap: 60px;
+            padding-bottom;: 5px
+           
+        }
         
  
 }
 @media screen and (max-width: 639px){
+    .col-scroll{
+        
+        width: calc(100% / 2);}
 
 }
 
  
 @media screen and (max-width: 552px){
-   
+    .scroll-area{
+        width:calc(100% - 50px) ;
+    }
+    .menu-area{
+        width: 50px;
+    }
+
+   .newplaylist{
+    display: none;
+   }
+   .create-playlist{
+    display: none;
+   }
+   .writehide{
+    display: none;
+   }
+
+   .hrmenu{
+    display: none;
+   }
 
 }
