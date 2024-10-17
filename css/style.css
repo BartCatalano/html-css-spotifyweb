@@ -195,7 +195,7 @@ background-color: #141922;
     position: relative;
     text-align: center;
     width: calc(100% / 6);
-    padding 20px;
+    padding: 20px;
     padding: 5px;
     
 }
@@ -219,8 +219,8 @@ background-color: #141922;
 }
 .playbhover{
     color: white;
-    font-size: 100px;
-    padding-top: 25%;
+    font-size: 80px;
+    padding-top: 40px;
     
    
     
@@ -228,7 +228,7 @@ background-color: #141922;
 
 .shadow-play{
     position: absolute;
-    height: 98%;
+    height: 97%;
     top: 0px;
     width: 100%;
     text-align: center;
