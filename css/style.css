@@ -334,7 +334,6 @@ background-color: #141922;
     flex-wrap: wrap;
     width: 40%;
     border: 2px solid gray;
-    height: 2px;
 
 }
 
@@ -388,6 +387,20 @@ a:hover{
         
         width: calc(100% / 2);}
 
+    .shortcut{
+        gap: 0;
+        display: grid;
+    }    
+    .control-right{
+        padding-bottom: 2px;
+    }
+    .rightboard{
+        flex-wrap: nowrap;
+        margin-left: 0;
+        padding-bottom: 0;
+        gap: 5px;
+    }
+
 }
 
  
@@ -397,6 +410,12 @@ a:hover{
     }
     .menu-area{
         width: 50px;
+    }
+    .menu-scroll{
+        gap: 20px;
+    }
+    .footer-menu{
+        padding: 15px;
     }
 
    .newplaylist{
@@ -412,5 +431,13 @@ a:hover{
    .hrmenu{
     display: none;
    }
+   .subsin{
+    font-size: 6px;
+   }
+   .subdescription{
+    font-size: 10px;
+   }
+
+
 
 }
