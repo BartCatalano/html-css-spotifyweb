@@ -211,6 +211,7 @@ background-color: #141922;
 .img-song{
     position: relative;
     z-index: 3;
+    display: block;
     
 }
 .card-cover{
@@ -220,20 +221,18 @@ background-color: #141922;
 .playbhover{
     color: white;
     font-size: 80px;
-    padding-top: 40px;
-    
-   
-    
 }
 
 .shadow-play{
     position: absolute;
-    height: 97%;
+    height: 100%;
     top: 0px;
     width: 100%;
-    text-align: center;
     z-index: 2;
     background-color:rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 /* /VISUAL AREA  */
@@ -379,7 +378,7 @@ a:hover{
         .menu-scroll{
            
             gap: 60px;
-            padding-bottom;: 5px
+            padding-bottom: 5px;
            
         }
         
