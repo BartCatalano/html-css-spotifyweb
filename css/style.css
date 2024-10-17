@@ -149,7 +149,7 @@ flex-wrap: wrap;
     border-color: gray;
 }
 .instapp{
-    width: 10px;
+    width: 13px;
 }
 .user-menu{
     display: flex;
@@ -206,7 +206,6 @@ background-color: #141922;
 
 
 .circle{
-    display: flex;
     border-radius:50% ;
 }
 .img-song{
@@ -360,6 +359,10 @@ a:hover{
     z-index: 1;
     
 }
+.add:hover{
+    background-color: white;
+}
+
 
 
 
